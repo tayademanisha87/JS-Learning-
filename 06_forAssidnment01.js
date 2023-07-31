@@ -75,3 +75,64 @@ for (let index = 100; index >=10; index=index-10) {
 console.log(result);
 
 
+console.log(`---------------------- 06_While Loop Assignment --------------------------`);
+
+
+console.log(`----------Print numbers from 5 to 15 by incre..1 ------------`);
+
+var i = 5;
+while (i<=15) {
+    console.log(i);
+    i++;    
+}
+
+console.log(`------------ Print numbers from 5 to 40 by decre...1`);
+var i = 50;
+while (i>=40) {
+    console.log(i);
+    i--;
+    
+}
+
+console.log(`-----------find first 15 odd numbers -------------`);
+
+var i = 1;
+while (i<=30){
+    console.log(i);
+    i=i+2;
+    
+}
+
+console.log(`-----------find first 10 even numbers -------------`);
+
+var i = 0;
+while (i<=20) {
+    console.log(i);
+    i=i+2;
+    
+}
+
+console.log(`-----------Print Table of 5 -------------`);
+var i = 5;
+while (i<=50) {
+
+    console.log(i);
+    i=i+5
+}
+
+console.log(`-----------Print Table of 10 -------------`);
+
+var i = 10;
+while (i<=100) {
+    console.log(i);
+
+    i=i+10
+}
+
+console.log(`-----------Print Table of 10 i reverse order-------------`);
+
+var i = 100;
+while (i>=10) {
+    console.log(i);
+i=i-10    
+}
